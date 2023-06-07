@@ -1,4 +1,4 @@
-# Project-name: buon-appetito
+# Project-name: Buon-Appetito
 
 ## Team-members:
 1. ahmad alsoub 
@@ -12,7 +12,7 @@
 
 An Italian restaurant that offers a variety of food dishes including pizza, salads, appetizers and drinks.
 
-## The overall problem domain and how the project solves those problems?
+### The overall problem domain and how the project solves those problems?
 
 It has an additional reservation feature which is helpful for many people to get their space there for granted 
 which leads to a more organized restaurant and more productivity.
