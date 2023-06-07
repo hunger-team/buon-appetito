@@ -19,7 +19,7 @@ which leads to a more organized restaurant and more productivity.
 A restaurant can save people time and can be a place of entertainment for family gatherings 
 as well as the job opportunities that it creates which will help a decent number of people.
 
-## Design and Wireframe :
+## Design and Wireframe: 
 
 [Home wireframe](https://www.figma.com/file/8xeejh1bj5xvPKPbwvPck1/home-wireframe?type=design&node-id=0-1&t=m8kBWIHYp0oNF29D-0) <br>
 [Home design](https://www.figma.com/file/4BMcWhVrdvUhAag15ewuJo/Untitled?type=design&node-id=1-2&t=z2SoG6VkMcEvYeDB-0) <br>
@@ -29,6 +29,6 @@ as well as the job opportunities that it creates which will help a decent number
 [Reservation wireframe and design](https://www.figma.com/file/xJmdOdM2EP1gsHcxVQU0tM/Booking?type=design&node-id=0-1&t=QMkBfbB2fPSQkx1Q-0) <br>
 
 
-## Webstie : 
+## Webstie: 
  
 (website)[https://hunger-team.github.io/buon-appetito/]
