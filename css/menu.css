@@ -91,7 +91,7 @@ nav ul li a:hover {
     color: #FFFFFF;
 }
 
-
+/* -------------------------main dishes------------------------- */
 .app {
     display: flex;
     flex-direction: row;
@@ -150,7 +150,9 @@ h3 {
     width: 400px;
 }
 
+/* -------------------------main dishes------------------------- */
 
+/* -------------------------pizza------------------------- */
 .pizz {
     display: flex;
     flex-direction: row;
@@ -198,6 +200,102 @@ h3 {
     font-family: 'Oswald';
     width: 400px;
 }
+
+/* -------------------------pizza------------------------- */
+
+/* -------------------------pasta------------------------- */
+.pasta {
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+#left-pasta {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    gap: 20px;
+    font-size: 20px;
+    font-family: 'Oswald';
+    padding-left: 90px;
+    width: 400px;
+}
+
+#center-pasta {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    gap: 20px;
+    font-size: 20px;
+    font-family: 'Oswald';
+    width: 400px;
+}
+
+#right-pasta {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    gap: 20px;
+    font-size: 20px;
+    font-family: 'Oswald';
+    width: 400px;
+}
+
+/* -------------------------pasta------------------------- */
+
+/* -------------------------Drinks------------------------- */
+.app-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 60px;
+    font-family: 'Oswald';
+}
+
+.Drinks {
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+#left-drinks {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    gap: 20px;
+    font-size: 20px;
+    font-family: 'Oswald';
+    padding-left: 90px;
+    width: 400px;
+}
+
+#center-drinks {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    gap: 20px;
+    font-size: 20px;
+    font-family: 'Oswald';
+    width: 400px;
+}
+
+#right-drinks {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    gap: 20px;
+    font-size: 20px;
+    font-family: 'Oswald';
+    width: 400px;
+}
+
+/* -------------------------Drinks------------------------- */
+
 
 /* --------------------------------foter------------------------ */
 .footer {
