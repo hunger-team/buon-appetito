@@ -81,12 +81,12 @@ nav ul li a:hover {
     position: absolute;
     width: 146px;
     height: 110px;
-    left: 810px;
+    left: 670px;
     top: 530px;
-    font-family: 'Oswald';
+    font-family: 'Satisfy', cursive;
     font-style: normal;
     font-weight: 400;
-    font-size: 150px;
+    font-size: 200px;
     line-height: 110px;
     color: #FFFFFF;
 }
@@ -126,7 +126,7 @@ h3 {
     gap: 50px;
     font-size: 20px;
     font-family: 'Oswald';
-    padding-left: 90px;
+    padding-left: 120px;
     width: 400px;
 }
 
@@ -177,7 +177,7 @@ h3 {
     gap: 20px;
     font-size: 20px;
     font-family: 'Oswald';
-    padding-left: 90px;
+    padding-left: 120px;
     width: 400px;
 }
 
@@ -219,7 +219,7 @@ h3 {
     gap: 20px;
     font-size: 20px;
     font-family: 'Oswald';
-    padding-left: 90px;
+    padding-left: 120px;
     width: 400px;
 }
 
@@ -270,7 +270,7 @@ h3 {
     gap: 20px;
     font-size: 20px;
     font-family: 'Oswald';
-    padding-left: 90px;
+    padding-left: 120px;
     width: 400px;
 }
 
@@ -278,7 +278,7 @@ h3 {
     display: flex;
     flex-direction: column;
     color: #FFFFFF;
-    gap: 20px;
+    gap: 40px;
     font-size: 20px;
     font-family: 'Oswald';
     width: 400px;
