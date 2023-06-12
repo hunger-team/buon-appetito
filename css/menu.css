@@ -76,7 +76,7 @@ nav ul li a:hover {
 
 
 .main {
-    background-color: #474747;
+    background-color: #323232;
 }
 
 #background-photo {
@@ -310,7 +310,7 @@ h3 {
     flex-direction: row;
     flex-grow: 1;
     align-items: center;
-    background-color: #474747;
+    background-color: #323232;
     padding: 30px;
     gap: 20px;
     font-size: 25px;
