@@ -337,50 +337,53 @@ button:hover{
     margin: 5%;
     top: 4414px;
 }
-
-.buon-appetito-all,
-.follow-us,
-.icons,
-.visit-us,
-.working-hours {
+.footer {
     position: absolute;
-    top: 4714px;
-    left: 1258px;
-    font-size: 32px;
-    font-family: 'Oswald', sans-serif;
+    top: 4700px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    background-color: #323232;
+    padding: 10px;
+    gap: 20px;
+    font-size: 25px;
+    width: 100%;
+    font-family: 'Oswald';
     color: #FFFFFF;
 }
 
-
-.follow-us,
-.icons,
-.working-hours {
-    top: 4784px;
+.footer .left-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 0;
 }
-
-.buon-appetito-all,
-.follow-us,
-.icons {
-    top: 4711px;
-    left: 415px;
-}
- .visit-us{
-    top: 4584px;
- }
- .working-hours{
-    top: 4711px;
- }
 
 .icons {
-    top: 4584px;
-    left: 434px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    font-size: 36px;
+
 }
 
-.buon-appetito-all {
-    top: 4772px;
-    left: 700px;
-    display: inline-block;
-    width: 550px;
-    height: 39px;
+.footer .right-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 0;
 }
 
+
+.footer .buon-appetito-all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
