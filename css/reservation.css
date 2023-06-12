@@ -80,7 +80,7 @@ nav ul li a:hover {
 
 }
 main{
-    height: 450px;
+    height: 510px;
 }
 
 .formTitle {
@@ -101,7 +101,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    padding-top: 4%;
 }
 
 .formSec {
