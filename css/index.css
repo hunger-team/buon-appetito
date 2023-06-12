@@ -332,11 +332,13 @@ button:hover{
     opacity: 0.8;
 }
 
-#footerLine{
-    position: absolute;
-    margin: 5%;
-    top: 4414px;
+#FN {
+    padding: 0%;
+    margin: 0%;
+    position: absolute; 
+    top: 4690px; 
 }
+
 .footer {
     position: absolute;
     top: 4700px;
@@ -345,7 +347,7 @@ button:hover{
     flex-grow: 1;
     align-items: center;
     background-color: #323232;
-    padding: 10px;
+    padding: 30px;
     gap: 20px;
     font-size: 25px;
     width: 100%;
@@ -364,26 +366,15 @@ button:hover{
 .icons {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 30px;
     align-items: center;
     font-size: 36px;
-
 }
 
 .footer .right-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-grow: 1;
-    flex-basis: 0;
-}
-
-
-.footer .buon-appetito-all {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 100px;
     flex-grow: 1;
     flex-basis: 0;
 }
