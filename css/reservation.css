@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    /* background-color: #0F0503; */
 
 
 
@@ -150,6 +151,10 @@ nav ul li a:hover {
     color: black;
 }
 
+/* .inp1[type="date"] {
+    width: 100%;
+} */
+
 .inp2 {
     display: -webkit-box;
     width: 243px;
@@ -183,6 +188,40 @@ nav ul li a:hover {
     color: #FFFFFF;
 }
 
+
+
+.alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 300px;
+    padding: 80px;
+    background-color: #F5F5F5;
+    border: 1px solid #333;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color: #333;
+}
+
+.alert p {
+    margin-bottom: 20px;
+}
+
+.alert button {
+    background-color: #D9D9D9;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
 .footer {
     height: 100px;
     border-top: solid 3px black;
@@ -195,17 +234,63 @@ nav ul li a:hover {
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
     line-height: 47px;
     display: flex;
-    align-items: center;
-    text-align: center;
+    flex-direction: row;
+    flex-grow: 1;
+    padding: 30px;
+    gap: 20px;
+    font-size: 25px;
+    width: 100%;
     width: -webkit-fill-available;
     justify-content: space-around;
     color: white;
 
 }
+/* .footer {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    background-color: #323232;
+    padding: 30px;
+    gap: 20px;
+    font-size: 25px;
+    width: 100%;
+    font-family: 'Oswald';
+    color: #FFFFFF;
+} */
 
-.footerSpc {
-    padding-top: 40px;
+.footer .left-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    font-size: 36px;
+}
+
+.footer .right-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+
+.footer .buon-appetito-all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    flex-grow: 1;
+    flex-basis: 0;
 }
