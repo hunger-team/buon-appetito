@@ -88,7 +88,7 @@ nav ul li a:hover {
     position: absolute;
     width: 146px;
     height: 110px;
-    left: 670px;
+    left: 750px;
     top: 530px;
     font-family: 'Satisfy', cursive;
     font-style: normal;
@@ -105,7 +105,7 @@ nav ul li a:hover {
     align-items: center;
     color: #FFFFFF;
     font-size: 60px;
-    font-family: 'Oswald';
+    font-family: 'Satisfy', cursive;
 }
 
 
@@ -174,7 +174,7 @@ h3 {
     align-items: center;
     color: #FFFFFF;
     font-size: 60px;
-    font-family: 'Oswald';
+    font-family: 'Satisfy', cursive;
 }
 
 #left-pizza {
@@ -259,7 +259,7 @@ h3 {
     align-items: center;
     color: #FFFFFF;
     font-size: 60px;
-    font-family: 'Oswald';
+    font-family: 'Satisfy', cursive;
 }
 
 .Drinks {
@@ -311,7 +311,7 @@ h3 {
     flex-grow: 1;
     align-items: center;
     background-color: #474747;
-    padding: 10px;
+    padding: 30px;
     gap: 20px;
     font-size: 25px;
     width: 100%;
@@ -330,10 +330,9 @@ h3 {
 .icons {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
     font-size: 36px;
-
 }
 
 .footer .right-footer {
