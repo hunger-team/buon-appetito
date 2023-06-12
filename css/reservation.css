@@ -79,6 +79,9 @@ nav ul li a:hover {
     top: 0px;
 
 }
+main{
+    height: 450px;
+}
 
 .formTitle {
     font-family: 'Oswald';
