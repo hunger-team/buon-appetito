@@ -11,15 +11,15 @@
 <body>
     <div id="overLay"></div>
     <header>
-        <div class="logo">
-          <h1>Buon appetito</h1>
+        <div>
+          <img id="logo" src="./assets/restaurantLogo.png" alt="">
         </div>
         <nav>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Reservation</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about-us.html">About us</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
           </ul>
         </nav>
       </header>
@@ -28,7 +28,13 @@
         <img id="main-background" src="./assets/mainBG.jpg">
 
         <p id="welcome-text">Welcome to our authentic Italian restaurant, where passion meets flavor! Immerse yourself in the rich culinary traditions of Italy as our skilled chefs create mouthwatering dishes with the finest ingredients.</p>
-        <h1 id="bestSellers">Best sellers</h1>
+
+        
+            <hr id="BSL1" style="width: 40%;" color="white">
+            <h1 id="bestSellers" style="padding-right: 20px;">Best sellers</h1>
+            <hr id="BSL2" style="width: 40%;" color="white">
+        
+       
          
         <div>
             <img id="pasta" src="./assets/pasta.jpg" alt="" width="701" height="537">
@@ -41,7 +47,10 @@
             <img id="pizza" src="./assets/pizza.jpg" alt="" width="701" height="537">
         </div>
 
+        <hr id="MS1" style="width: 38%;" color="white">
         <h1 id="mainText">Main sections</h1>
+        <hr id="MS2" style="width: 38%;" color="white">
+
         <button>
             <div>
                 <img id="menu-nav" src="./assets/pizza.jpg" width="1352" height="609">
@@ -66,15 +75,26 @@
         
         
 
-        <div><footer>
-            <div class="visit-us">Visit us : 24th Avenue</div>
-            <div class="working-hours">Working hours : 9am - 7pm</div>
-            <div class="follow-us">Follow us</div>
-            <div class="icons">icons</div>
-            <div class="buon-appetito-all">
-              © 2023 Buon Appetito, All Rights Reserved
+        <footer class="footer">
+            <div class="left-footer">
+                <div>Follow us</div>
+                <div class="icons">
+                    <a href="https://web.facebook.com/osamayaseen97/" class="fa fa-facebook" style="color: white;"></a>
+                    <a href="https://www.instagram.com/osama_ya/" class="fa fa-instagram" style="color: white;"></a>
+                    <i class="fa fa-envelope" style="font-size:36px"></i>
+                </div>
             </div>
-        </footer></div>
+        
+            <div class="buon-appetito-all">
+                © 2023 Buon Appetito, All Rights Reserved
+            </div>
+            <div class="right-footer">
+                <div>Visit us : 24th Avenue</div>
+                <div>Working hours : 9am - 7pm</div>
+            </div>
+        
+        
+        </footer>
     </main>
     
 </body>

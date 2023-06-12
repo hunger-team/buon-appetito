@@ -5,21 +5,32 @@
     padding: 0px;
     margin: 0px;
 }
+main{
+    margin: 0%;
+    padding: 0%;
+}
 
 header {
     position: absolute;
-    height: 151px;
+    height: 161px;
     width: 100%;
     margin: 0%;
-    padding: 20px;
-    
 }
 #overLay{
     position: absolute;
     background-color: black;
     width: 100%;
-    height: 101px;
+    height: 131px;
     opacity: 0.6;
+}
+
+#logo {
+    margin: 0%;
+    padding: 0%;
+    width: 9%;
+    height: 6%;
+    margin-left: 5.4%;
+    margin-top: 0.5%;
 }
 
 .logo h1 {
@@ -37,7 +48,7 @@ header {
 
 nav ul {
     position: absolute;
-    top: 10%;
+    top: 16%;
     right: 5%;
     list-style-type: none;
     margin: 0;
@@ -64,14 +75,14 @@ nav ul {
     color: #b6b4b4;
   }
 
-body{
+  body{
     position: relative;
     background: #323232;
     margin: 0;
     padding: 0;
 }
 
-#main-background {
+  #main-background {
     position: absolute;
     width: 100%;
     height: 1280px;
@@ -97,11 +108,27 @@ body{
     color: #FFFFFF;
 }
 
+#BSL1 {
+    padding: 0%;
+    margin: 0%;
+    position: absolute;
+    top: 1392px;
+    
+}
+#BSL2 {
+    padding: 0%;
+    margin: 0%;
+    position: absolute;
+    top: 1392px;
+    left: 60%;
+    
+}
+
 #bestSellers {
     position: absolute;
     width: fit-content;
     height: 110px;
-    left: 787px;
+    left: 770px;
     top: 1330px;
     font-family: 'Oswald';
     font-style: normal;
@@ -209,6 +236,21 @@ body{
     color: #FFFFFF;
 } 
 
+#MS1 {
+    padding: 0%;
+    margin: 0%;
+    position: absolute; 
+    top: 2990px; 
+}
+
+#MS2 {
+    padding: 0%;
+    margin: 0%;
+    position: absolute; 
+    top: 2990px; 
+    left: 62%;
+}
+
 #menu-nav {
     position: absolute;
     width: 96%;
@@ -290,51 +332,58 @@ button:hover{
     opacity: 0.8;
 }
 
-
-
-.buon-appetito-all,
-.follow-us,
-.icons,
-.visit-us,
-.working-hours {
+#footerLine{
     position: absolute;
-    top: 4714px;
-    left: 1258px;
-    font-size: 32px;
-    font-family: 'Oswald', sans-serif;
+    margin: 5%;
+    top: 4414px;
+}
+.footer {
+    position: absolute;
+    top: 4700px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    background-color: #323232;
+    padding: 10px;
+    gap: 20px;
+    font-size: 25px;
+    width: 100%;
+    font-family: 'Oswald';
     color: #FFFFFF;
 }
 
-
-.follow-us,
-.icons,
-.working-hours {
-    top: 4784px;
+.footer .left-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 0;
 }
-
-.buon-appetito-all,
-.follow-us,
-.icons {
-    top: 4711px;
-    left: 415px;
-}
- .visit-us{
-    top: 4584px;
- }
- .working-hours{
-    top: 4711px;
- }
 
 .icons {
-    top: 4584px;
-    left: 434px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    font-size: 36px;
+
 }
 
-.buon-appetito-all {
-    top: 4772px;
-    left: 700px;
-    display: inline-block;
-    width: 550px;
-    height: 39px;
+.footer .right-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 0;
 }
 
+
+.footer .buon-appetito-all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
