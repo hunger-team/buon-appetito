@@ -1,12 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/reservation.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <title>Reservation page</title>
 </head>
+
 <body>
-    
+    <img class="bg" src="assets/reservation.jpg" alt="background">
+    <div id="overLay"></div>
+    <header>
+        <div class="logo">
+            <h1>Buon appetito</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about-us.html">About us</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="formContainer">
+            <fieldset class="formSec">
+                <div class="title">
+                    <h1 class="formTitle">
+                        Welcome to our retaurant!
+                    </h1>
+                    <br>
+                </div>
+                <form class="formSec2">
+                    <div class="secCen">
+                        <div>
+                            <label class="label" for="firstName">FIRST NAME</label>
+                            <br>
+                            <input class="inp1" type="text" id="firstName" name="firstName">
+
+
+                            <label class="label" for="date">DATE</label>
+                            <br>
+                            <input class="inp1" class="inp1" type="date" id="date" name="date">
+                        </div>
+                        <div>
+
+                            <label class="label" for="lastName">LAST NAME</label>
+                            <br>
+                            <input class="inp2" type="text" id="lastName" name="lastName">
+
+                            <label class="label" for="guests">GUESTS</label>
+                            <br>
+                            <select class="inp2" name="guests" id="guests">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                            </select>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="book">
+                        <p class="p1">If you have more than 8 guests please book another table</p>
+                        <input class="inp3" type="submit" value="BOOK A TABLE">
+                    </div>
+                </form>
+            </fieldset>
+        </div>
+    </main>
+    <div class="footerSpc">
+        <footer class="footer">
+            <div class="visit-us">Visit us : 24th Avenue</div>
+            <div class="working-hours">Working hours : 9am - 7pm</div>
+            <div class="follow-us">Follow us</div>
+            <div class="icons">icons</div>
+            <div class="buon-appetito-all">
+                © 2023 Buon Appetito, All Rights Reserved
+            </div>
+
+
+        </footer>
+    </div>
+    <script src="reservation.js"></script>
 </body>
+
 </html>
