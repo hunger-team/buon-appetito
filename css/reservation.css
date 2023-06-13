@@ -158,9 +158,9 @@ main {
     color: black;
 }
 
-/* .inp1[type="date"] {
-    width: 100%;
-} */
+.inp1[type="date"] {
+    display: flex;
+}
 
 .inp2 {
     display: -webkit-box;
