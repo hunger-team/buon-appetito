@@ -83,7 +83,8 @@ nav ul li a:hover {
 }
 
 main {
-    height: 510px;
+    height: 610px;
+    padding-top: 170px;
 }
 
 .formTitle {
