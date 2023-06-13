@@ -84,6 +84,7 @@ nav ul li a:hover {
 
 main {
     height: 510px;
+    padding-top: 150px;
 }
 
 .formTitle {
@@ -243,7 +244,7 @@ main {
     display: flex;
     flex-direction: row;
     flex-grow: 1;
-    padding-top: 80px;
+    padding-top: 200px;
     padding-right: 30px;
     padding-left: 30px;
     gap: 20px;
