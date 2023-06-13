@@ -73,8 +73,8 @@ header nav a:hover {
 
 .back-ground-img nav {
     position: absolute;
-    right: 10px;
-    top: 30px;
+    right: 71px;
+    top: 25px;
 }
 
 .abouutt {
@@ -276,11 +276,12 @@ a {
 }
 
 #logo {
+    scale: 1.23;
     width: 175px;
     height: fit-content;
     position: absolute;
-    top: -25px;
-    left: 60px;
+    top: -10px;
+    left: 91px;
 }
 
 .abboouutt {
