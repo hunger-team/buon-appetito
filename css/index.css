@@ -1,11 +1,12 @@
-*{
+* {
     font-family: 'Oswald';
     font-style: normal;
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
 }
-main{
+
+main {
     margin: 0%;
     padding: 0%;
 }
@@ -16,7 +17,8 @@ header {
     width: 100%;
     margin: 0%;
 }
-#overLay{
+
+#overLay {
     position: absolute;
     background-color: black;
     width: 100%;
@@ -44,7 +46,7 @@ header {
     padding: 0px;
     left: 50px;
     color: #FFFFFF;
-  }
+}
 
 nav ul {
     position: absolute;
@@ -52,10 +54,10 @@ nav ul {
     right: 5%;
     list-style-type: none;
     margin: 0;
-  }
-  
-  nav ul li {
-    display:inline-flex;
+}
+
+nav ul li {
+    display: inline-flex;
     margin-right: 10px;
     padding-left: 50px;
     font-family: 'Oswald';
@@ -64,31 +66,31 @@ nav ul {
     font-size: 40px;
     text-align: justify;
     color: #FFFFFF;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color:#FFFFFF;
-  }
-  
-  nav ul li a:hover {
-    color: #b6b4b4;
-  }
+}
 
-  body{
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav ul li a:hover {
+    color: #b6b4b4;
+}
+
+body {
     position: relative;
     background: #323232;
     margin: 0;
     padding: 0;
 }
 
-  #main-background {
+#main-background {
     position: absolute;
     width: 100%;
     height: 1280px;
     left: 0px;
     filter: brightness(60%);
-    z-index:-3;  
+    z-index: -3;
 }
 
 
@@ -104,7 +106,7 @@ nav ul {
     font-weight: 400;
     font-size: 54px;
     line-height: 95px;
-    text-align:left;
+    text-align: left;
     color: #FFFFFF;
 }
 
@@ -113,15 +115,16 @@ nav ul {
     margin: 0%;
     position: absolute;
     top: 1392px;
-    
+
 }
+
 #BSL2 {
     padding: 0%;
     margin: 0%;
     position: absolute;
     top: 1392px;
     left: 60%;
-    
+
 }
 
 #bestSellers {
@@ -163,7 +166,7 @@ nav ul {
     text-align: justify;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-} 
+}
 
 #pastaTextTitle {
     position: absolute;
@@ -196,7 +199,7 @@ nav ul {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-#pizzaTextTitle{
+#pizzaTextTitle {
     position: absolute;
     width: 734px;
     height: 537px;
@@ -220,7 +223,7 @@ nav ul {
     border: 1px solid #000000;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 31px;
-} 
+}
 
 #mainText {
     position: absolute;
@@ -234,20 +237,20 @@ nav ul {
     font-size: 74px;
     line-height: 110px;
     color: #FFFFFF;
-} 
+}
 
 #MS1 {
     padding: 0%;
     margin: 0%;
-    position: absolute; 
-    top: 2990px; 
+    position: absolute;
+    top: 2990px;
 }
 
 #MS2 {
     padding: 0%;
     margin: 0%;
-    position: absolute; 
-    top: 2990px; 
+    position: absolute;
+    top: 2990px;
     left: 62%;
 }
 
@@ -259,10 +262,11 @@ nav ul {
     top: 3160px;
     mix-blend-mode: overlay;
     filter: brightness(50%);
-    object-fit:cover;
+    object-fit: cover;
     border-radius: 15px;
 }
-#section-menu{
+
+#section-menu {
     position: absolute;
     width: 146px;
     height: 110px;
@@ -276,7 +280,7 @@ nav ul {
     color: #FFFFFF;
 }
 
-#section-reserve{
+#section-reserve {
     position: absolute;
     width: 316px;
     height: 110px;
@@ -290,7 +294,7 @@ nav ul {
     color: #FFFFFF;
 }
 
-#section-about-us{
+#section-about-us {
     position: absolute;
     width: fit-content;
     height: 110px;
@@ -316,7 +320,7 @@ nav ul {
     border-radius: 15px;
 }
 
-#reserve-nav{
+#reserve-nav {
     position: absolute;
     width: 850px;
     height: 609px;
@@ -328,15 +332,15 @@ nav ul {
     filter: brightness(50%);
 }
 
-button:hover{
+button:hover {
     opacity: 0.8;
 }
 
 #FN {
     padding: 0%;
     margin: 0%;
-    position: absolute; 
-    top: 4690px; 
+    position: absolute;
+    top: 4690px;
 }
 
 .footer {

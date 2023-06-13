@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+
 /* header */
 header {
     display: flex;
@@ -9,6 +10,7 @@ header {
     font-family: 'Oswald';
     font-style: normal;
 }
+
 #logo {
     margin: 0;
     padding: 0;
@@ -18,25 +20,29 @@ header {
     left: 5.4%;
     top: 1%;
 }
-#overLay{
+
+#overLay {
     position: absolute;
     background-color: black;
     width: 100%;
     height: 131px;
     opacity: 0.6;
 }
+
 header nav a {
     text-decoration: none;
     padding: 20px;
     color: white;
     font-size: 40px;
     font-weight: 400px;
-    font-family:"Oswald";
+    font-family: "Oswald";
 }
-header nav a:hover{
+
+header nav a:hover {
     color: #bdbdbd;
 
 }
+
 .back-ground-img {
     display: flex;
     align-items: center;
@@ -49,11 +55,13 @@ header nav a:hover{
     border: 1px solid #000000;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
 .back-ground-img h1 {
     position: absolute;
     left: 10px;
     top: 10px;
 }
+
 .back-ground-img h1 {
     background-color: rgb(0, 0, 0, 0.6);
     width: 1424px;
@@ -62,11 +70,13 @@ header nav a:hover{
     padding: 20px;
     left: 0;
 }
+
 .back-ground-img nav {
     position: absolute;
     right: 10px;
     top: 30px;
 }
+
 .abouutt {
     /* display: flex; */
     position: absolute;
@@ -79,11 +89,13 @@ header nav a:hover{
     line-height: 43px;
     text-align: justify;
 }
+
 /* main */
 main {
     /* background-color: rgb(17, 17, 17, 0.4); */
     background-color: #323232;
 }
+
 .about {
     display: flex;
     flex-direction: row;
@@ -91,6 +103,7 @@ main {
     position: relative;
     top: -240px;
 }
+
 .description {
     width: 400px;
     height: 450px;
@@ -99,18 +112,22 @@ main {
     font-family: 'Oswald';
     font-style: normal;
 }
+
 .description p {
-    padding: 40px;
+    padding: 20px;
 }
+
 .description div {
     text-align: center;
     font-size: 2em;
     padding: 30px;
 }
+
 .imgDesc img {
     width: 420px;
     height: 490px;
 }
+
 #founderMembers {
     display: flex;
     justify-content: center;
@@ -119,6 +136,7 @@ main {
     font-family: 'Oswald';
     font-style: normal;
 }
+
 #founders {
     display: flex;
     flex-wrap: wrap;
@@ -126,31 +144,88 @@ main {
     font-family: 'Oswald';
     font-style: normal;
 }
+
 #founders div {
     background-color: black;
     color: white;
     text-align: center;
     border-radius: 10px;
 }
+
 #founders div {
     padding: 20px;
     margin: 70px;
 }
+
 #founders div img {
     width: 200px;
     height: 200px;
 }
+
 #founders div a {
     color: white;
 }
+
 .a {
     display: flex;
     flex-direction: row;
 }
+
 a {
     margin: 10px;
     color: #000000;
 }
+
+.line-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+
+.line-container span {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Oswald';
+    font-style: normal;
+}
+
+.abboouutt::before,
+.abboouutt::after {
+    content: "";
+    flex-grow: 1;
+    border-top: 1px solid white;
+    margin: 0 10px;
+}
+
+
+#founderMembers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    color: white;
+    font-family: 'Oswald';
+    font-style: normal;
+    margin-top: 50px;
+    position: relative;
+}
+
+#founderMembers::before,
+#founderMembers::after {
+    content: "";
+    flex-grow: 1;
+    border-top: 1px solid white;
+    margin: 0 10px;
+}
+
+#founderMembers span {
+    padding: 0 10px;
+    background-color: #323232;
+    position: relative;
+    z-index: 1;
+}
+
 .footer {
     display: flex;
     flex-direction: row;
@@ -164,13 +239,16 @@ a {
     font-family: 'Oswald';
     color: #FFFFFF;
 }
+
 .footer .left-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-grow: 1;
     flex-basis: 0;
+    padding-top: 40px;
 }
+
 .icons {
     display: flex;
     flex-direction: row;
@@ -178,18 +256,55 @@ a {
     align-items: center;
     font-size: 36px;
 }
+
 .footer .right-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-grow: 1;
     flex-basis: 0;
+    padding-top: 40px;
 }
+
 .footer .buon-appetito-all {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 40px;
     flex-grow: 1;
     flex-basis: 0;
+}
+
+#logo {
+    width: 175px;
+    height: fit-content;
+    position: absolute;
+    top: -25px;
+    left: 60px;
+}
+
+.abboouutt {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 3em;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: justify;
+}
+
+.abboouutt::before,
+.abboouutt::after {
+    content: "";
+    flex-grow: 1;
+    border-top: 1px solid white;
+    margin: 0 10px;
+}
+
+.abboouut {
+    background-color: white;
+    width: 82vh;
+    height: 1px;
 }
